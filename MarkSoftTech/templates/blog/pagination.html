@@ -1,0 +1,11 @@
+
+
+<div class="col-md-12 bg-light text-right">
+    {% if page.has_previous %}
+        <a href="?page={{ page.previous_page_number }}" class="btn btn-primary float-right">Previous</a>
+    {% endif %}
+    {% if page.has_next %}
+        <a href="?page={{ page.next_page_number }}" class="btn btn-success float-right">Next</a>
+    {% endif %}
+    <div class="" id="post-end-message">Continue to follow us</div>
+</div>
